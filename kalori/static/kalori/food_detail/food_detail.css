@@ -1,0 +1,74 @@
+.foodContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin: 0 5%;
+}
+
+.outline {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.outlineFood {
+    background-color: #77cbc3;
+    width: 100%;
+}
+
+.outlineSearch {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    align-items: center;
+}
+
+.searchItem {
+    background-color: #C4C4C4;
+}
+
+.searchDropdown {
+    margin-right: 5px;
+}
+
+.searchBar {
+    margin-left: 5px;
+}
+
+#searchFood {
+    width: 90%;
+}
+
+.outlineAnalytics {
+    background-color: #7BCB77;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.foodDetails {
+    background-color: #538e89;
+    width: 100%;
+}
+
+.nutritionBar {
+    background-color: #568E53;
+    height: 40px;
+}
+
+.foodItem {
+    margin: 5px 0px;
+    text-align: left;
+}
+
+.dailyNutrition {
+    background-color: #7BCB77;
+    width: 90%;
+    height: 100%;
+}
+
+.nutritionItem {
+    margin: 5% 0;
+}

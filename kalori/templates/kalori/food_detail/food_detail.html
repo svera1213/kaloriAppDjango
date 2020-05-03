@@ -1,0 +1,45 @@
+<div class="foodContainer">
+    <div class="outline">
+        <div class="outlineSearch">
+            <div class="searchItem searchDropdown">
+                <select class="ui dropdown">
+                  <option value="">Gender</option>
+                  <option value="1">Male</option>
+                  <option value="0">Female</option>
+                </select>
+            </div>
+            <div class="searchItem searchBar">
+                <div>
+                    <input id="searchFood" type="text" placeholder="Kalori Food...">
+                    <i class="search link icon"></i>
+                </div>
+            </div>
+        </div>
+        <div class="outlineAnalytics">
+            here goes analytic details
+        </div>
+        <div class="foodContainer outlineFood">
+            <div>{{ food.name }}</div>
+            <div class="foodDetails">
+                <div class="nutritionBar">Nutrition Details</div>
+                <div class="foodItem">Calories: {{ food.calories }}</div>
+                <div class="foodItem">Carbohydrates: {{ food.carbs }}</div>
+                <div class="foodItem">Cholesterol: {{ food.cholestrol }}</div>
+                <div class="foodItem">Fat: {{ food.fat }}</div>
+                <div class="foodItem">Fiber: {{ food.fiber }}</div>
+                <div class="foodItem">Protein: {{ food.protein }}</div>
+                <div class="foodItem">Saturated Fat: {{ food.sat_fat }}</div>
+            </div>
+        </div>
+    </div>
+    <div class="dailyNutrition">
+        <div class="nutritionBar">Daily Nutrition</div>
+        <div class="nutritionItem">Calories: {{ food.calories }}</div>
+        <div class="nutritionItem">Carbohydrates: {{ food.carbs }}</div>
+        <div class="nutritionItem">Cholesterol: {{ food.cholestrol }}</div>
+        <div class="nutritionItem">Fat: {{ food.fat }}</div>
+        <div class="nutritionItem">Fiber: {{ food.fiber }}</div>
+        <div class="nutritionItem">Protein: {{ food.protein }}</div>
+        <div class="nutritionItem">Saturated Fat: {{ food.sat_fat }}</div>
+    </div>
+</div>
