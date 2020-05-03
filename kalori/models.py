@@ -10,6 +10,7 @@ class Food(models.Model):
     fiber = models.FloatField(default=0)
     protein = models.FloatField(default=0)
     sat_fat = models.FloatField(default=0)
+    sugar = models.FloatField(default=0)
 
     def __str__(self):
         return self.name
